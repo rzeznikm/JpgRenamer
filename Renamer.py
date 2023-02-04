@@ -4,7 +4,7 @@ from PIL.ExifTags import TAGS
 from datetime import datetime
 
 DIR = r""
-ROOT_DIR = r"G:\Foto"
+ROOT_DIR = r"D:\Foto\2022"
 PREFIX = "IMG_"
 POSTFIX = ".jpg"
 
@@ -71,4 +71,5 @@ def renameJpgRecusive(root_path):
 if __name__ == "__main__":
     #renameJpgInDir(DIR)
     renameJpgRecusive(ROOT_DIR)
+    print("Finished")
 
